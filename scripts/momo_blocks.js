@@ -1,6 +1,6 @@
-Blockly.defineBlocksWithJsonArray([{
+Blockly.defineBlocksWithJsonArray({
   "type": "move_momo",
-  "message0": "Move Momo%1 %2",
+  "message0": "%1 %2",
   "args0": [
     {
       "type": "field_dropdown",
@@ -24,10 +24,11 @@ Blockly.defineBlocksWithJsonArray([{
         ]
       ]
     },
- 
+  
   ],
-  "inputsInline": false,
-  "colour": 230,
+  "previousStatement": null,
+  "nextStatement": null,
+  "colour": 60,
   "tooltip": "",
   "helpUrl": ""
-}]);
+});
