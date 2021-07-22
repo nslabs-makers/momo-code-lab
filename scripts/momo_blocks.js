@@ -1,19 +1,37 @@
-Blockly.defineBlocksWithJsonArray([
-  {
-    "type": "move_momo",
-    "message0": "Move %1",
-    "args0": [
-      {
-        "type": "field_dropdown",
-        "name": "VALUE",
-        "options": [
-          ["Forward", "http://momo.local:8080/motors/forward"],
-          ["Back", "http://momo.local:8080/motors/forward"],
+Blockly.defineBlocksWithJsonArray([{
+  "type": "move_momo",
+  "message0": "%1 %2",
+  "args0": [
+    {
+      "type": "field_dropdown",
+      "name": "direction",
+      "options": [
+        [
+          "Forward",
+          "forward"
+        ],
+        [
+          "Back",
+          "back"
+        ],
+        [
+          "Left",
+          "left"
+        ],
+        [
+          "Right",
+          "right"
         ]
-      }
-    ],
-    "previousStatement": null,
-    "nextStatement": null,
-    "colour": 50
-  }
-]);
+      ]
+    },
+    {
+      "type": "input_statement",
+      "name": "NAME",
+      "align": "CENTRE"
+    }
+  ],
+  "inputsInline": false,
+  "colour": 230,
+  "tooltip": "",
+  "helpUrl": ""
+}]);
