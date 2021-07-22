@@ -1,4 +1,4 @@
-Blockly.defineBlocksWithJsonArray({
+Blockly.defineBlocksWithJsonArray([{
   "type": "move_momo",
   "message0": "Move %1",
   "args0": [
@@ -31,4 +31,4 @@ Blockly.defineBlocksWithJsonArray({
   "colour": 60,
   "tooltip": "",
   "helpUrl": ""
-});
+}]);
