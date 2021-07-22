@@ -24,11 +24,7 @@ Blockly.defineBlocksWithJsonArray([{
         ]
       ]
     },
-    {
-      "type": "input_statement",
-      "name": "NAME",
-      "align": "CENTRE"
-    }
+ 
   ],
   "inputsInline": false,
   "colour": 230,
